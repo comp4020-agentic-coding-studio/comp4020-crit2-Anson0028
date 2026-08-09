@@ -3,22 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>COMP4020 prototype</title>
+    <title>Unity, plainly — an unofficial redesign</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
+    <p class="disclaimer">
+      Unofficial student redesign of Unity's homepage — not affiliated with
+      Unity Technologies. <a href="https://unity.com/">See the real unity.com</a>.
+    </p>
     <header>
       <nav aria-label="Primary">
-        <a href="./">Home</a>
+        <a class="brand" href="./">Unity</a>
+        <a href="./">What it is</a>
+        <a href="./make.html">What you can build</a>
+        <a href="./cost.html">Do I have to pay?</a>
+        <a href="./start.html">Get started</a>
       </nav>
     </header>
     <main>
-      <h1>COMP4020 prototype</h1>
-      <p data-testid="intro">
-        Replace this with your prototype. This week's brief is on the course website;
-        <code>spec/README.md</code> explains how the checks in this repo relate to it.
+      <h1>Unity is a real-time 3D game engine.</h1>
+      <p class="lede">
+        It renders and simulates your project live, not as pre-rendered
+        frames, so you can build, test and ship interactive 3D and 2D content
+        from one project.
       </p>
+      <p>
+        One project can publish to desktop, mobile, consoles, the web, and
+        headsets like Meta Quest and Apple Vision Pro. See
+        <a href="./make.html">what you can build with it</a> for the full
+        list — and it isn't only games.
+      </p>
+      <div class="actions">
+        <a class="button button-primary" href="https://unity.com/download"
+          >Download Unity Hub</a
+        >
+        <a class="button button-secondary" href="./cost.html"
+          >Do I have to pay?</a
+        >
+      </div>
     </main>
-    <script type="module" src="./main.ts"></script>
+    <footer>
+      <p>
+        Content restructured from unity.com by a COMP4020 student, checked 9
+        August 2026. A class exercise, not an official Unity resource.
+      </p>
+    </footer>
   </body>
 </html>
