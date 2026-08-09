@@ -314,3 +314,21 @@ footer {
   color: var(--muted);
   font-size: 0.875rem;
 }
+
+.shot {
+  margin: 1.5rem 0;
+}
+
+.shot img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.shot figcaption {
+  margin-top: 0.5rem;
+  color: var(--muted);
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
